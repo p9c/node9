@@ -425,6 +425,7 @@ func beforeFunc(cx *conte.Xt) func(c *cli.Context) error {
 			log.TRACE("set save", c.Bool("save"))
 			// cx.StateCfg.Save = true
 			log.INFO("saving configuration")
+			log.SPEW(cx.Config)
 			save.Pod(cx.Config)
 		}
 		return nil

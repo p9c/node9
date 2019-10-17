@@ -20,6 +20,10 @@ type Blocks []*mining.BlockTemplate
 
 // Run starts a controller instance
 func Run(cx *conte.Xt) (cancel context.CancelFunc) {
+	if len(cx.StateCfg.ActiveMiningAddrs) <1 {
+		log.WARN("no mining addresses - not starting controller")
+		return
+	}
 	log.WARN("starting controller")
 	var mh codec.MsgpackHandle
 	var ctx context.Context
@@ -62,22 +66,22 @@ func Run(cx *conte.Xt) (cancel context.CancelFunc) {
 			}
 		}
 	}()
-	connCount := cx.RPCServer.Cfg.ConnMgr.ConnectedCount()
-	current := cx.RPCServer.Cfg.SyncMgr.IsCurrent()
-	// if out of sync or disconnected,
-	// once a second send out empty blocks
-	for (connCount < 1 && !*cx.Config.Solo) || !current {
-		time.Sleep(time.Second)
-		connCount = cx.RPCServer.Cfg.ConnMgr.ConnectedCount()
-		current = cx.RPCServer.Cfg.SyncMgr.IsCurrent()
-		log.WARN("waiting for sync/peers", connCount, current)
-		select {
-		case <-ctx.Done():
-			log.WARN("cancelled before initial connection/sync")
-			return
-		default:
-		}
-	}
+	//connCount := cx.RPCServer.Cfg.ConnMgr.ConnectedCount()
+	//current := cx.RPCServer.Cfg.SyncMgr.IsCurrent()
+	//// if out of sync or disconnected,
+	//// once a second send out empty blocks
+	//for (connCount < 1 && !*cx.Config.Solo) || !current {
+	//	time.Sleep(time.Second)
+	//	connCount = cx.RPCServer.Cfg.ConnMgr.ConnectedCount()
+	//	current = cx.RPCServer.Cfg.SyncMgr.IsCurrent()
+	//	log.WARN("waiting for sync/peers", connCount, current)
+	//	select {
+	//	case <-ctx.Done():
+	//		log.WARN("cancelled before initial connection/sync")
+	//		return
+	//	default:
+	//	}
+	//}
 	blocks := Blocks{}
 	// create subscriber for new block event
 	cx.RPCServer.Cfg.Chain.Subscribe(func(n *chain.

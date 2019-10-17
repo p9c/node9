@@ -2,9 +2,9 @@ package path
 
 import (
 	"path/filepath"
-	
-	"github.com/p9c/pod/pkg/conte"
-	"github.com/p9c/pod/pkg/log"
+
+	"github.com/p9c/node9/pkg/conte"
+	"github.com/p9c/node9/pkg/log"
 )
 
 // BlockDbNamePrefix is the prefix for the block database name.

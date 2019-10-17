@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/p9c/pod/pkg/rpc/btcjson"
+	"github.com/p9c/node9/pkg/rpc/btcjson"
 )
 
 // TestHelpers tests the various helper functions which create pointers to primitive types.

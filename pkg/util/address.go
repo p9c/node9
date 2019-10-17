@@ -9,11 +9,11 @@ import (
    
    "golang.org/x/crypto/ripemd160"
    
-   chaincfg "github.com/p9c/pod/pkg/chain/config"
-   `github.com/p9c/pod/pkg/chain/config/netparams`
-   "github.com/p9c/pod/pkg/util/base58"
-   "github.com/p9c/pod/pkg/util/bech32"
-   ec "github.com/p9c/pod/pkg/util/elliptic"
+   chaincfg "github.com/p9c/node9/pkg/chain/config"
+   `github.com/p9c/node9/pkg/chain/config/netparams`
+   "github.com/p9c/node9/pkg/util/base58"
+   "github.com/p9c/node9/pkg/util/bech32"
+   ec "github.com/p9c/node9/pkg/util/elliptic"
 )
 
 // UnsupportedWitnessVerError describes an error where a segwit address being decoded has an unsupported witness version.

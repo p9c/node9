@@ -5,9 +5,9 @@ import (
 	js "encoding/json"
 	"errors"
 
-	chainhash "github.com/p9c/pod/pkg/chain/hash"
-	"github.com/p9c/pod/pkg/rpc/btcjson"
-	"github.com/p9c/pod/pkg/util"
+	chainhash "github.com/p9c/node9/pkg/chain/hash"
+	"github.com/p9c/node9/pkg/rpc/btcjson"
+	"github.com/p9c/node9/pkg/util"
 )
 
 // FutureGenerateResult is a future promise to deliver the result of a GenerateAsync RPC invocation (or an applicable error).

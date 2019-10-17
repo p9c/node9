@@ -3,7 +3,7 @@ package base58_test
 import (
 	"fmt"
 
-	"github.com/p9c/pod/pkg/util/base58"
+	"github.com/p9c/node9/pkg/util/base58"
 )
 
 // This example demonstrates how to decode modified base58 encoded data.

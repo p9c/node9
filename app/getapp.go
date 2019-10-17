@@ -7,23 +7,22 @@ import (
 	"github.com/urfave/cli"
 	"github.com/urfave/cli/altsrc"
 
-	"github.com/p9c/pod/app/apputil"
-	"github.com/p9c/pod/cmd/node"
-	"github.com/p9c/pod/cmd/node/mempool"
-	"github.com/p9c/pod/pkg/broadcast"
-	"github.com/p9c/pod/pkg/conte"
-	"github.com/p9c/pod/pkg/log"
-	"github.com/p9c/pod/pkg/util/base58"
-	"github.com/p9c/pod/pkg/util/hdkeychain"
+	"github.com/p9c/node9/app/apputil"
+	"github.com/p9c/node9/cmd/node"
+	"github.com/p9c/node9/cmd/node/mempool"
+	"github.com/p9c/node9/pkg/broadcast"
+	"github.com/p9c/node9/pkg/conte"
+	"github.com/p9c/node9/pkg/log"
+	"github.com/p9c/node9/pkg/util/base58"
+	"github.com/p9c/node9/pkg/util/hdkeychain"
 )
 
 func // getApp defines the pod app
 getApp(cx *conte.Xt) (a *cli.App) {
 	return &cli.App{
-		Name:    "pod",
+		Name:    "node9",
 		Version: "v0.0.1",
-		Description: "Parallelcoin Pod Suite -- All-in-one everything" +
-			" for Parallelcoin!",
+		Description: "Parallelcoin node9 and kopach miner",
 		Copyright: "Legacy portions derived from btcsuite/btcd under" +
 			" ISC licence. The remainder is already in your" +
 			" possession. Use it wisely.",
@@ -46,19 +45,6 @@ getApp(cx *conte.Xt) (a *cli.App) {
 				},
 				apputil.SubCommands(),
 				"v"),
-			apputil.NewCommand("ctl",
-				"send RPC commands to a node or wallet and print the result",
-				ctlHandle(cx),
-				apputil.SubCommands(
-					apputil.NewCommand(
-						"listcommands",
-						"list commands available at endpoint",
-						ctlHandleList,
-						nil,
-						"list", "l",
-					),
-				),
-				"c"),
 			apputil.NewCommand("node",
 				"start parallelcoin full node",
 				nodeHandle(cx),
@@ -89,24 +75,6 @@ getApp(cx *conte.Xt) (a *cli.App) {
 					),
 				),
 				"n",
-			),
-			apputil.NewCommand("wallet",
-				"start parallelcoin wallet server",
-				walletHandle(cx),
-				apputil.SubCommands(),
-				"w",
-			),
-			apputil.NewCommand("shell",
-				"start combined wallet/node shell",
-				shellHandle(cx),
-				apputil.SubCommands(),
-				"s",
-			),
-			apputil.NewCommand(
-				"gui",
-				"start GUI",
-				guiHandle(cx),
-				apputil.SubCommands(),
 			),
 			apputil.NewCommand("kopach",
 				"standalone miner for clusters",

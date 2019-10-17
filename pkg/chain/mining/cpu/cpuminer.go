@@ -10,14 +10,14 @@ import (
 
 	"go.uber.org/atomic"
 
-	blockchain "github.com/p9c/pod/pkg/chain"
-	"github.com/p9c/pod/pkg/chain/config/netparams"
-	"github.com/p9c/pod/pkg/chain/fork"
-	chainhash "github.com/p9c/pod/pkg/chain/hash"
-	"github.com/p9c/pod/pkg/chain/mining"
-	"github.com/p9c/pod/pkg/chain/wire"
-	"github.com/p9c/pod/pkg/log"
-	"github.com/p9c/pod/pkg/util"
+	blockchain "github.com/p9c/node9/pkg/chain"
+	"github.com/p9c/node9/pkg/chain/config/netparams"
+	"github.com/p9c/node9/pkg/chain/fork"
+	chainhash "github.com/p9c/node9/pkg/chain/hash"
+	"github.com/p9c/node9/pkg/chain/mining"
+	"github.com/p9c/node9/pkg/chain/wire"
+	"github.com/p9c/node9/pkg/log"
+	"github.com/p9c/node9/pkg/util"
 )
 
 // CPUMiner provides facilities for solving blocks (mining) using the CPU in a

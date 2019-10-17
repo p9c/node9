@@ -3,13 +3,13 @@ package rpc
 import (
 	"sync/atomic"
 
-	"github.com/p9c/pod/cmd/node/mempool"
-	blockchain "github.com/p9c/pod/pkg/chain"
-	chainhash "github.com/p9c/pod/pkg/chain/hash"
-	netsync "github.com/p9c/pod/pkg/chain/sync"
-	"github.com/p9c/pod/pkg/chain/wire"
-	"github.com/p9c/pod/pkg/peer"
-	"github.com/p9c/pod/pkg/util"
+	"github.com/p9c/node9/cmd/node/mempool"
+	blockchain "github.com/p9c/node9/pkg/chain"
+	chainhash "github.com/p9c/node9/pkg/chain/hash"
+	netsync "github.com/p9c/node9/pkg/chain/sync"
+	"github.com/p9c/node9/pkg/chain/wire"
+	"github.com/p9c/node9/pkg/peer"
+	"github.com/p9c/node9/pkg/util"
 )
 
 // Peer provides a peer for use with the RPC server and implements the

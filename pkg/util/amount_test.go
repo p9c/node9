@@ -4,7 +4,7 @@ import (
 	"math"
 	"testing"
 
-	. "github.com/p9c/pod/pkg/util"
+	. "github.com/p9c/node9/pkg/util"
 )
 
 func TestAmountCreation(	t *testing.T) {

@@ -1,7 +1,0 @@
-[Desktop Entry]
-Name=Parallelcoin Qt wallet
-Exec=parallelcoin-qt
-Icon=parallelcoin
-Terminal=false
-Type=Application
-Categories=cryptocurrency;parallelcoin;qt;

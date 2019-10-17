@@ -5,7 +5,7 @@
 package main
 
 import (
-	"github.com/p9c/pod/cmd"
+	"github.com/p9c/node9/cmd"
 )
 
 func main() {

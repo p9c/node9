@@ -7,7 +7,7 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/p9c/pod/pkg/log"
+	"github.com/p9c/node9/pkg/log"
 )
 
 // AlgoParams are the identifying block version number and their minimum target bits

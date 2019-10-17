@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/p9c/pod/pkg/fec"
-	"github.com/p9c/pod/pkg/log"
+	"github.com/p9c/node9/pkg/fec"
+	"github.com/p9c/node9/pkg/log"
 )
 
 // Encode creates Reed Solomon shards and encrypts them using

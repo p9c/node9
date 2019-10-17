@@ -6,12 +6,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/p9c/pod/pkg/chain/config/netparams"
-	"github.com/p9c/pod/pkg/chain/fork"
-	chainhash "github.com/p9c/pod/pkg/chain/hash"
-	"github.com/p9c/pod/pkg/chain/wire"
-	database "github.com/p9c/pod/pkg/db"
-	"github.com/p9c/pod/pkg/log"
+	"github.com/p9c/node9/pkg/chain/config/netparams"
+	"github.com/p9c/node9/pkg/chain/fork"
+	chainhash "github.com/p9c/node9/pkg/chain/hash"
+	"github.com/p9c/node9/pkg/chain/wire"
+	database "github.com/p9c/node9/pkg/db"
+	"github.com/p9c/node9/pkg/log"
 )
 
 // blockStatus is a bit field representing the validation state of the block.
@@ -290,7 +290,7 @@ func (node *blockNode) GetLastWithAlgo(algo int32) (prev *blockNode) {
 		prev = prev.RelativeAncestor(1)
 	}
 }
-	
+
 	// if node == nil {
 	// 	log.TRACE("this node is nil")
 	// 	return nil

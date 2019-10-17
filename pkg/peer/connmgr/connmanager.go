@@ -8,7 +8,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/p9c/pod/pkg/log"
+	"github.com/p9c/node9/pkg/log"
 )
 
 // maxFailedAttempts is the maximum number of successive failed connection

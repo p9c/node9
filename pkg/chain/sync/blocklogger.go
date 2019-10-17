@@ -5,8 +5,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/p9c/pod/pkg/log"
-	"github.com/p9c/pod/pkg/util"
+	"github.com/p9c/node9/pkg/log"
+	"github.com/p9c/node9/pkg/util"
 )
 
 type // blockProgressLogger provides periodic logging for other services in

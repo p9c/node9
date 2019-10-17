@@ -4,7 +4,7 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/p9c/pod/pkg/util/bech32"
+	"github.com/p9c/node9/pkg/util/bech32"
 )
 
 // This example demonstrates how to decode a bech32 encoded string.

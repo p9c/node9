@@ -4,10 +4,10 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/p9c/pod/pkg/chain/config/netparams"
-	"github.com/p9c/pod/pkg/chain/wire"
-	"github.com/p9c/pod/pkg/util"
-	ec "github.com/p9c/pod/pkg/util/elliptic"
+	"github.com/p9c/node9/pkg/chain/config/netparams"
+	"github.com/p9c/node9/pkg/chain/wire"
+	"github.com/p9c/node9/pkg/util"
+	ec "github.com/p9c/node9/pkg/util/elliptic"
 )
 
 // RawTxInWitnessSignature returns the serialized ECDA signature for the input idx of the given transaction, with the hashType appended to it. This function is identical to RawTxInSignature, however the signature generated signs a new sighash digest defined in BIP0143.

@@ -8,8 +8,8 @@ import (
 	"os"
 	"strings"
 
-	btcjson "github.com/p9c/pod/pkg/rpc/btcjson"
-	rpchelp "github.com/p9c/pod/pkg/rpc/help"
+	btcjson "github.com/p9c/node9/pkg/rpc/btcjson"
+	rpchelp "github.com/p9c/node9/pkg/rpc/help"
 )
 
 var outputFile = func() *os.File {

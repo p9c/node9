@@ -10,7 +10,7 @@ import (
 	"log"
 	"os"
 
-	ec "github.com/p9c/pod/pkg/util/elliptic"
+	ec "github.com/p9c/node9/pkg/util/elliptic"
 )
 
 func main() {

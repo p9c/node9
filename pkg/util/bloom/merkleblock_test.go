@@ -5,10 +5,10 @@ import (
 	"encoding/hex"
 	"testing"
 
-	chainhash "github.com/p9c/pod/pkg/chain/hash"
-	"github.com/p9c/pod/pkg/chain/wire"
-	"github.com/p9c/pod/pkg/util"
-	"github.com/p9c/pod/pkg/util/bloom"
+	chainhash "github.com/p9c/node9/pkg/chain/hash"
+	"github.com/p9c/node9/pkg/chain/wire"
+	"github.com/p9c/node9/pkg/util"
+	"github.com/p9c/node9/pkg/util/bloom"
 )
 
 func TestMerkleBlock3(	t *testing.T) {

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/p9c/pod/pkg/util"
+	"github.com/p9c/node9/pkg/util"
 )
 
 func ExampleAmount() {

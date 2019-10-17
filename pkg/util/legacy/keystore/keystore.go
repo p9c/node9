@@ -17,16 +17,16 @@ import (
    "path/filepath"
    "sync"
    "time"
-   
+
    "golang.org/x/crypto/ripemd160"
-   
-   "github.com/p9c/pod/pkg/chain/config/netparams"
-   chainhash "github.com/p9c/pod/pkg/chain/hash"
-   txscript "github.com/p9c/pod/pkg/chain/tx/script"
-   "github.com/p9c/pod/pkg/chain/wire"
-   "github.com/p9c/pod/pkg/util"
-   ec "github.com/p9c/pod/pkg/util/elliptic"
-   "github.com/p9c/pod/pkg/util/legacy/rename"
+
+   "github.com/p9c/node9/pkg/chain/config/netparams"
+   chainhash "github.com/p9c/node9/pkg/chain/hash"
+   txscript "github.com/p9c/node9/pkg/chain/tx/script"
+   "github.com/p9c/node9/pkg/chain/wire"
+   "github.com/p9c/node9/pkg/util"
+   ec "github.com/p9c/node9/pkg/util/elliptic"
+   "github.com/p9c/node9/pkg/util/legacy/rename"
 )
 
 // A bunch of constants

@@ -6,7 +6,7 @@ import (
 	"reflect"
 	"testing"
 
-	btcjson "github.com/p9c/pod/pkg/rpc/btcjson"
+	btcjson "github.com/p9c/node9/pkg/rpc/btcjson"
 )
 
 // TestAssignField tests the assignField function handles supported combinations properly.

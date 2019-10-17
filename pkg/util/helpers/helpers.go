@@ -3,8 +3,8 @@
 package helpers
 
 import (
-	"github.com/p9c/pod/pkg/chain/wire"
-	"github.com/p9c/pod/pkg/util"
+	"github.com/p9c/node9/pkg/chain/wire"
+	"github.com/p9c/node9/pkg/util"
 )
 
 // SumOutputValues sums up the list of TxOuts and returns an Amount.

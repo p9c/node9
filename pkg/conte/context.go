@@ -6,12 +6,11 @@ import (
 	scribble "github.com/nanobox-io/golang-scribble"
 	"github.com/urfave/cli"
 
-	"github.com/p9c/pod/app/appdata"
-	"github.com/p9c/pod/cmd/node/rpc"
-	"github.com/p9c/pod/cmd/node/state"
-	`github.com/p9c/pod/pkg/chain/config/netparams`
-	"github.com/p9c/pod/pkg/pod"
-	"github.com/p9c/pod/pkg/wallet"
+	"github.com/p9c/node9/app/appdata"
+	"github.com/p9c/node9/cmd/node/rpc"
+	"github.com/p9c/node9/cmd/node/state"
+	`github.com/p9c/node9/pkg/chain/config/netparams`
+	"github.com/p9c/node9/pkg/pod"
 )
 
 type _dtype int
@@ -39,16 +38,8 @@ type Xt struct {
 	TestNode *atomic.Value
 	// TestNodeKill is the killswitch for the TestNode
 	TestNodeKill chan struct{}
-	// Wallet is the run state of the wallet
-	Wallet *atomic.Value
-	// WalletKill is the killswitch for the Wallet
-	WalletKill chan struct{}
-	// // Window is the fyne window when running GUI
-	// Window *fyne.Window
 	// RPCServer is needed to directly query data
 	RPCServer *rpc.Server
-	// WalletServer is needed to query the wallet
-	WalletServer *wallet.Wallet
 	// Scribble DB
 	DB *scribble.Driver
 	// RealNode is the main node

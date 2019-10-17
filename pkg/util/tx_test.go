@@ -5,11 +5,11 @@ import (
    "io"
    "reflect"
    "testing"
-   
+
    "github.com/davecgh/go-spew/spew"
-   
-   chainhash "github.com/p9c/pod/pkg/chain/hash"
-   "github.com/p9c/pod/pkg/util"
+
+   chainhash "github.com/p9c/node9/pkg/chain/hash"
+   "github.com/p9c/node9/pkg/util"
 )
 
 // TestTx tests the API for Tx.

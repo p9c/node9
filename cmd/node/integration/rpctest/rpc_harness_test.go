@@ -8,11 +8,11 @@ import (
 	"testing"
 	"time"
 
-	chaincfg "github.com/p9c/pod/pkg/chain/config"
-	chainhash "github.com/p9c/pod/pkg/chain/hash"
-	txscript "github.com/p9c/pod/pkg/chain/tx/script"
-	"github.com/p9c/pod/pkg/chain/wire"
-	"github.com/p9c/pod/pkg/util"
+	chaincfg "github.com/p9c/node9/pkg/chain/config"
+	chainhash "github.com/p9c/node9/pkg/chain/hash"
+	txscript "github.com/p9c/node9/pkg/chain/tx/script"
+	"github.com/p9c/node9/pkg/chain/wire"
+	"github.com/p9c/node9/pkg/util"
 )
 
 func testSendOutputs(r *Harness, t *testing.T) {

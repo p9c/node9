@@ -8,10 +8,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/p9c/pod/cmd/node/integration/rpctest"
-	blockchain "github.com/p9c/pod/pkg/chain"
-	chaincfg "github.com/p9c/pod/pkg/chain/config"
-	chainhash "github.com/p9c/pod/pkg/chain/hash"
+	"github.com/p9c/node9/cmd/node/integration/rpctest"
+	blockchain "github.com/p9c/node9/pkg/chain"
+	chaincfg "github.com/p9c/node9/pkg/chain/config"
+	chainhash "github.com/p9c/node9/pkg/chain/hash"
 )
 
 const (

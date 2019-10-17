@@ -4,12 +4,12 @@ import (
 	"bytes"
 	"strings"
 
-	wtxmgr "github.com/p9c/pod/pkg/chain/tx/mgr"
-	txscript "github.com/p9c/pod/pkg/chain/tx/script"
-	"github.com/p9c/pod/pkg/log"
-	waddrmgr "github.com/p9c/pod/pkg/wallet/addrmgr"
-	"github.com/p9c/pod/pkg/wallet/chain"
-	walletdb "github.com/p9c/pod/pkg/wallet/db"
+	wtxmgr "github.com/p9c/node9/pkg/chain/tx/mgr"
+	txscript "github.com/p9c/node9/pkg/chain/tx/script"
+	"github.com/p9c/node9/pkg/log"
+	waddrmgr "github.com/p9c/node9/pkg/wallet/addrmgr"
+	"github.com/p9c/node9/pkg/wallet/chain"
+	walletdb "github.com/p9c/node9/pkg/wallet/db"
 )
 
 func (w *Wallet) handleChainNotifications() {

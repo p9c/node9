@@ -4,11 +4,11 @@
 // Full documentation of the API implemented by this package is maintained in a
 // language-agnostic document:
 //
-//   https://github.com/p9c/pod/walletmain/blob/master/rpc/documentation/api.md
+//   https://github.com/p9c/node9/walletmain/blob/master/rpc/documentation/api.md
 //
 // Any API changes must be performed according to the steps listed here:
 //
-//   https://github.com/p9c/pod/walletmain/blob/master/rpc/documentation/serverchanges.md
+//   https://github.com/p9c/node9/walletmain/blob/master/rpc/documentation/serverchanges.md
 package rpcserver
 
 import (
@@ -23,21 +23,21 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/p9c/pod/pkg/chain/config/netparams"
-	chainhash "github.com/p9c/pod/pkg/chain/hash"
-	txscript "github.com/p9c/pod/pkg/chain/tx/script"
-	"github.com/p9c/pod/pkg/chain/wire"
-	"github.com/p9c/pod/pkg/log"
-	rpcclient "github.com/p9c/pod/pkg/rpc/client"
-	pb "github.com/p9c/pod/pkg/rpc/walletrpc"
-	"github.com/p9c/pod/pkg/util"
-	cfgutil "github.com/p9c/pod/pkg/util/config"
-	"github.com/p9c/pod/pkg/util/hdkeychain"
-	"github.com/p9c/pod/pkg/util/zero"
-	"github.com/p9c/pod/pkg/wallet"
-	waddrmgr "github.com/p9c/pod/pkg/wallet/addrmgr"
-	"github.com/p9c/pod/pkg/wallet/chain"
-	walletdb "github.com/p9c/pod/pkg/wallet/db"
+	"github.com/p9c/node9/pkg/chain/config/netparams"
+	chainhash "github.com/p9c/node9/pkg/chain/hash"
+	txscript "github.com/p9c/node9/pkg/chain/tx/script"
+	"github.com/p9c/node9/pkg/chain/wire"
+	"github.com/p9c/node9/pkg/log"
+	rpcclient "github.com/p9c/node9/pkg/rpc/client"
+	pb "github.com/p9c/node9/pkg/rpc/walletrpc"
+	"github.com/p9c/node9/pkg/util"
+	cfgutil "github.com/p9c/node9/pkg/util/config"
+	"github.com/p9c/node9/pkg/util/hdkeychain"
+	"github.com/p9c/node9/pkg/util/zero"
+	"github.com/p9c/node9/pkg/wallet"
+	waddrmgr "github.com/p9c/node9/pkg/wallet/addrmgr"
+	"github.com/p9c/node9/pkg/wallet/chain"
+	walletdb "github.com/p9c/node9/pkg/wallet/db"
 )
 
 // Public API version constants

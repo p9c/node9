@@ -3,10 +3,10 @@ package util
 import (
    "golang.org/x/crypto/ripemd160"
 
-	"github.com/p9c/pod/app/appdata"
-	"github.com/p9c/pod/pkg/util/base58"
-   "github.com/p9c/pod/pkg/util/bech32"
-   ec "github.com/p9c/pod/pkg/util/elliptic"
+	"github.com/p9c/node9/app/appdata"
+	"github.com/p9c/node9/pkg/util/base58"
+   "github.com/p9c/node9/pkg/util/bech32"
+   ec "github.com/p9c/node9/pkg/util/elliptic"
 )
 
 // SetBlockBytes sets the internal serialized block byte buffer to the passed buffer.  It is used to inject errors and is only available to the test package.

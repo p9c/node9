@@ -16,10 +16,10 @@ import (
 
 	"github.com/btcsuite/websocket"
 
-	"github.com/p9c/pod/pkg/log"
-	"github.com/p9c/pod/pkg/rpc/btcjson"
-	"github.com/p9c/pod/pkg/wallet"
-	"github.com/p9c/pod/pkg/wallet/chain"
+	"github.com/p9c/node9/pkg/log"
+	"github.com/p9c/node9/pkg/rpc/btcjson"
+	"github.com/p9c/node9/pkg/wallet"
+	"github.com/p9c/node9/pkg/wallet/chain"
 )
 
 type WebsocketClient struct {

@@ -4,7 +4,7 @@ import (
 	"errors"
 	"testing"
 
-	database "github.com/p9c/pod/pkg/db"
+	database "github.com/p9c/node9/pkg/db"
 )
 
 // TestErrorCodeStringer tests the stringized output for the ErrorCode type.

@@ -4,10 +4,10 @@ import (
 	"os"
 	"time"
 
-	chaincfg "github.com/p9c/pod/pkg/chain/config"
-	"github.com/p9c/pod/pkg/chain/wire"
-	database "github.com/p9c/pod/pkg/db"
-	_ "github.com/p9c/pod/pkg/db/ffldb"
+	chaincfg "github.com/p9c/node9/pkg/chain/config"
+	"github.com/p9c/node9/pkg/chain/wire"
+	database "github.com/p9c/node9/pkg/db"
+	_ "github.com/p9c/node9/pkg/db/ffldb"
 )
 
 const (

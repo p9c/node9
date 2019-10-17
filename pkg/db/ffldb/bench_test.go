@@ -5,9 +5,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	chaincfg "github.com/p9c/pod/pkg/chain/config"
-	database "github.com/p9c/pod/pkg/db"
-	"github.com/p9c/pod/pkg/util"
+	chaincfg "github.com/p9c/node9/pkg/chain/config"
+	database "github.com/p9c/node9/pkg/db"
+	"github.com/p9c/node9/pkg/util"
 )
 
 // BenchmarkBlockHeader benchmarks how long it takes to load the mainnet genesis

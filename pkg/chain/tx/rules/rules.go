@@ -5,9 +5,9 @@ package txrules
 import (
 	"errors"
 
-	txscript "github.com/p9c/pod/pkg/chain/tx/script"
-	"github.com/p9c/pod/pkg/chain/wire"
-	"github.com/p9c/pod/pkg/util"
+	txscript "github.com/p9c/node9/pkg/chain/tx/script"
+	"github.com/p9c/node9/pkg/chain/wire"
+	"github.com/p9c/node9/pkg/util"
 )
 
 // DefaultRelayFeePerKb is the default minimum relay fee policy for a mempool.

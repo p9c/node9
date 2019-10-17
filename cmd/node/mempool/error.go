@@ -1,8 +1,8 @@
 package mempool
 
 import (
-	blockchain "github.com/p9c/pod/pkg/chain"
-	"github.com/p9c/pod/pkg/chain/wire"
+	blockchain "github.com/p9c/node9/pkg/chain"
+	"github.com/p9c/node9/pkg/chain/wire"
 )
 
 // RuleError identifies a rule violation.

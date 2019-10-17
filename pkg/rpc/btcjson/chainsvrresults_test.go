@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	btcjson "github.com/p9c/pod/pkg/rpc/btcjson"
+	btcjson "github.com/p9c/node9/pkg/rpc/btcjson"
 )
 
 // TestChainSvrCustomResults ensures any results that have custom marshalling work as intended and unmarshal code of results are as expected.

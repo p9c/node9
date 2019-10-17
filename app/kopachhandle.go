@@ -5,9 +5,9 @@ import (
 
 	"github.com/urfave/cli"
 
-	"github.com/p9c/pod/cmd/kopach"
-	"github.com/p9c/pod/pkg/conte"
-	"github.com/p9c/pod/pkg/util/interrupt"
+	"github.com/p9c/node9/cmd/kopach"
+	"github.com/p9c/node9/pkg/conte"
+	"github.com/p9c/node9/pkg/util/interrupt"
 )
 
 func kopachHandle(cx *conte.Xt) func(c *cli.Context) (err error) {

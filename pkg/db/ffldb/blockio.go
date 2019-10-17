@@ -10,10 +10,10 @@ import (
 	"path/filepath"
 	"sync"
 
-	chainhash "github.com/p9c/pod/pkg/chain/hash"
-	"github.com/p9c/pod/pkg/chain/wire"
-	database "github.com/p9c/pod/pkg/db"
-	"github.com/p9c/pod/pkg/log"
+	chainhash "github.com/p9c/node9/pkg/chain/hash"
+	"github.com/p9c/node9/pkg/chain/wire"
+	database "github.com/p9c/node9/pkg/db"
+	"github.com/p9c/node9/pkg/log"
 )
 
 const (

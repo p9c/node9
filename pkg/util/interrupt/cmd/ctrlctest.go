@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/p9c/pod/pkg/util/interrupt"
+	"github.com/p9c/node9/pkg/util/interrupt"
 )
 
 func main() {

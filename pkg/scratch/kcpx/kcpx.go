@@ -11,7 +11,7 @@ import (
 	"github.com/p9c/rpcx/server"
 	"golang.org/x/crypto/pbkdf2"
 
-	"github.com/p9c/pod/pkg/log"
+	"github.com/p9c/node9/pkg/log"
 )
 
 // NewXClient returns a new XClient configured for parallelcoin rpcx service

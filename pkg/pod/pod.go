@@ -9,8 +9,8 @@ import (
 
 	"github.com/urfave/cli"
 
-	"github.com/p9c/pod/pkg/chain/fork"
-	"github.com/p9c/pod/pkg/log"
+	"github.com/p9c/node9/pkg/chain/fork"
+	"github.com/p9c/node9/pkg/log"
 )
 
 type Schema struct {

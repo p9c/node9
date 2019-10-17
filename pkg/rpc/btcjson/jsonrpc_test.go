@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"testing"
 
-	btcjson "github.com/p9c/pod/pkg/rpc/btcjson"
+	btcjson "github.com/p9c/node9/pkg/rpc/btcjson"
 )
 
 // TestIsValidIDType ensures the IsValidIDType function behaves as expected.

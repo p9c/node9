@@ -168,7 +168,7 @@ func (l *Logger) SetLogPaths(logPath, logFileName string) {
 // SetLevel enables or disables the various print functions
 func (l *Logger) SetLevel(level string, color bool) *Logger {
 	//_, loc, line, _ := runtime.Caller(1)
-	//files := strings.Split(loc, "github.com/p9c/pod/")
+	//files := strings.Split(loc, "github.com/p9c/node9/")
 	//codeLoc := "./"+fmt.Sprint(files[1], ":", justifyLineNumber(line))
 	//fmt.Println("setting level to", level, codeLoc)
 	*l = *Empty()
@@ -279,7 +279,7 @@ func composit(text, level string, color bool) string {
 	terminalWidth := gt.Width()
 	_, loc, iline, _ := runtime.Caller(3)
 	line := fmt.Sprint(iline)
-	files := strings.Split(loc, "github.com/p9c/pod/")
+	files := strings.Split(loc, "github.com/p9c/node9/")
 	file := "./"+files[1]
 	since := fmt.Sprint(time.Now().Sub(StartupTime) / time.
 		Second * time.Second)

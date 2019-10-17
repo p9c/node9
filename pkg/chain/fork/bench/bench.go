@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/p9c/pod/pkg/chain/fork"
+	"github.com/p9c/node9/pkg/chain/fork"
 )
 
 func main() {

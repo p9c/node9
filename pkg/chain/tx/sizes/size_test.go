@@ -5,8 +5,8 @@ import (
 	"encoding/hex"
 	"testing"
 
-	. "github.com/p9c/pod/pkg/chain/tx/sizes"
-	"github.com/p9c/pod/pkg/chain/wire"
+	. "github.com/p9c/node9/pkg/chain/tx/sizes"
+	"github.com/p9c/node9/pkg/chain/wire"
 )
 
 const (

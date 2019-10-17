@@ -1,13 +1,13 @@
 package mining
 
 import (
-	blockchain "github.com/p9c/pod/pkg/chain"
-   `github.com/p9c/pod/pkg/chain/config/netparams`
-   "github.com/p9c/pod/pkg/chain/hardfork"
-	chainhash "github.com/p9c/pod/pkg/chain/hash"
-	txscript "github.com/p9c/pod/pkg/chain/tx/script"
-	"github.com/p9c/pod/pkg/chain/wire"
-	"github.com/p9c/pod/pkg/util"
+	blockchain "github.com/p9c/node9/pkg/chain"
+   `github.com/p9c/node9/pkg/chain/config/netparams`
+   "github.com/p9c/node9/pkg/chain/hardfork"
+	chainhash "github.com/p9c/node9/pkg/chain/hash"
+	txscript "github.com/p9c/node9/pkg/chain/tx/script"
+	"github.com/p9c/node9/pkg/chain/wire"
+	"github.com/p9c/node9/pkg/util"
 )
 
 // createHardForkSubsidyTx creates the transaction that must be on the hard fork activation block in place of a standard coinbase transaction. The main difference is the value set on this coinbase and that it pays out to multiple addresses, several being to the developers and to a 3 of 4 multisig to the development team for marketing and ongoing development costs

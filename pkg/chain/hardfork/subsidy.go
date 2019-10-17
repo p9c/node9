@@ -3,8 +3,8 @@ package hardfork
 import (
 	"encoding/hex"
 
-	"github.com/p9c/pod/pkg/chain/config/netparams"
-	"github.com/p9c/pod/pkg/util"
+	"github.com/p9c/node9/pkg/chain/config/netparams"
+	"github.com/p9c/node9/pkg/util"
 )
 
 // Payee is an address and amount

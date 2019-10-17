@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/p9c/pod/pkg/chain/fork"
-	chainhash "github.com/p9c/pod/pkg/chain/hash"
-	database "github.com/p9c/pod/pkg/db"
-	"github.com/p9c/pod/pkg/log"
-	"github.com/p9c/pod/pkg/util"
+	"github.com/p9c/node9/pkg/chain/fork"
+	chainhash "github.com/p9c/node9/pkg/chain/hash"
+	database "github.com/p9c/node9/pkg/db"
+	"github.com/p9c/node9/pkg/log"
+	"github.com/p9c/node9/pkg/util"
 )
 
 type // BehaviorFlags is a bitmask defining tweaks to the normal behavior when

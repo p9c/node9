@@ -9,9 +9,9 @@ import (
    
    "github.com/davecgh/go-spew/spew"
    
-   chainhash "github.com/p9c/pod/pkg/chain/hash"
-   "github.com/p9c/pod/pkg/chain/wire"
-   "github.com/p9c/pod/pkg/util"
+   chainhash "github.com/p9c/node9/pkg/chain/hash"
+   "github.com/p9c/node9/pkg/chain/wire"
+   "github.com/p9c/node9/pkg/util"
 )
 
 // TestBlock tests the API for Block.

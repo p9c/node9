@@ -8,14 +8,14 @@ import (
 	"testing"
 	"time"
 
-	blockchain "github.com/p9c/pod/pkg/chain"
-	chaincfg "github.com/p9c/pod/pkg/chain/config"
-	"github.com/p9c/pod/pkg/chain/config/netparams"
-	chainhash "github.com/p9c/pod/pkg/chain/hash"
-	txscript "github.com/p9c/pod/pkg/chain/tx/script"
-	"github.com/p9c/pod/pkg/chain/wire"
-	"github.com/p9c/pod/pkg/util"
-	ec "github.com/p9c/pod/pkg/util/elliptic"
+	blockchain "github.com/p9c/node9/pkg/chain"
+	chaincfg "github.com/p9c/node9/pkg/chain/config"
+	"github.com/p9c/node9/pkg/chain/config/netparams"
+	chainhash "github.com/p9c/node9/pkg/chain/hash"
+	txscript "github.com/p9c/node9/pkg/chain/tx/script"
+	"github.com/p9c/node9/pkg/chain/wire"
+	"github.com/p9c/node9/pkg/util"
+	ec "github.com/p9c/node9/pkg/util/elliptic"
 )
 
 // fakeChain is used by the pool harness to provide generated test utxos and

@@ -5,8 +5,8 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/p9c/pod/pkg/chain/fork"
-	"github.com/p9c/pod/pkg/log"
+	"github.com/p9c/node9/pkg/chain/fork"
+	"github.com/p9c/node9/pkg/log"
 )
 
 // calcNextRequiredDifficultyHalcyon calculates the required difficulty for the

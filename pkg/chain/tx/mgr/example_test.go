@@ -4,11 +4,11 @@ package wtxmgr_test
 import (
 	"fmt"
 
-	chaincfg "github.com/p9c/pod/pkg/chain/config"
-	chainhash "github.com/p9c/pod/pkg/chain/hash"
-	wtxmgr "github.com/p9c/pod/pkg/chain/tx/mgr"
-	"github.com/p9c/pod/pkg/chain/wire"
-	walletdb "github.com/p9c/pod/pkg/wallet/db"
+	chaincfg "github.com/p9c/node9/pkg/chain/config"
+	chainhash "github.com/p9c/node9/pkg/chain/hash"
+	wtxmgr "github.com/p9c/node9/pkg/chain/tx/mgr"
+	"github.com/p9c/node9/pkg/chain/wire"
+	walletdb "github.com/p9c/node9/pkg/wallet/db"
 )
 
 var (

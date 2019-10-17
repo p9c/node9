@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"time"
 
-	chaincfg "github.com/p9c/pod/pkg/chain/config"
-	chainhash "github.com/p9c/pod/pkg/chain/hash"
-	txscript "github.com/p9c/pod/pkg/chain/tx/script"
-	"github.com/p9c/pod/pkg/log"
-	"github.com/p9c/pod/pkg/util"
+	chaincfg "github.com/p9c/node9/pkg/chain/config"
+	chainhash "github.com/p9c/node9/pkg/chain/hash"
+	txscript "github.com/p9c/node9/pkg/chain/tx/script"
+	"github.com/p9c/node9/pkg/log"
+	"github.com/p9c/node9/pkg/util"
 )
 
 // CheckpointConfirmations is the number of blocks before the end of the

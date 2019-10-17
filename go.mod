@@ -1,4 +1,4 @@
-module github.com/p9c/pod
+module github.com/p9c/node9
 
 go 1.13
 

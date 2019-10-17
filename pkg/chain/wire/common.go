@@ -8,7 +8,7 @@ import (
 	"math"
 	"time"
 
-	chainhash "github.com/p9c/pod/pkg/chain/hash"
+	chainhash "github.com/p9c/node9/pkg/chain/hash"
 )
 
 const (

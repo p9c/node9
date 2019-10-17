@@ -3,9 +3,9 @@ package blockchain_test
 import (
 	"os"
 
-	"github.com/p9c/pod/pkg/chain/wire"
-	database "github.com/p9c/pod/pkg/db"
-	_ "github.com/p9c/pod/pkg/db/ffldb"
+	"github.com/p9c/node9/pkg/chain/wire"
+	database "github.com/p9c/node9/pkg/db"
+	_ "github.com/p9c/node9/pkg/db/ffldb"
 )
 
 const (

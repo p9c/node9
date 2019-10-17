@@ -3,9 +3,9 @@ package wtxmgr
 import (
 	"fmt"
 
-	chainhash "github.com/p9c/pod/pkg/chain/hash"
-	"github.com/p9c/pod/pkg/util"
-	walletdb "github.com/p9c/pod/pkg/wallet/db"
+	chainhash "github.com/p9c/node9/pkg/chain/hash"
+	"github.com/p9c/node9/pkg/util"
+	walletdb "github.com/p9c/node9/pkg/wallet/db"
 )
 
 // CreditRecord contains metadata regarding a transaction credit for a known

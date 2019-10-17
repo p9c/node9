@@ -7,9 +7,9 @@ import (
 	"strconv"
 	"time"
 
-	`github.com/p9c/pod/pkg/chain/config/netparams`
-	"github.com/p9c/pod/pkg/chain/wire"
-	"github.com/p9c/pod/pkg/log"
+	`github.com/p9c/node9/pkg/chain/config/netparams`
+	"github.com/p9c/node9/pkg/chain/wire"
+	"github.com/p9c/node9/pkg/log"
 )
 
 const (

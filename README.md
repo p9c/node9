@@ -1,7 +1,7 @@
 # ![Logo](https://git.parallelcoin.io/dev/legacy/raw/commit/f709194e16960103834b0d0e25aec06c3d84f85b/logo/logo48x48.png) Parallelcoin Pod 
 
-[![GoDoc](https://img.shields.io/badge/godoc-documentation-blue.svg)](https://godoc.org/github.com/p9c/pod) 
-[![master branch](https://img.shields.io/badge/branch-master-gray.svg)](https://github.com/p9c/pod) 
+[![GoDoc](https://img.shields.io/badge/godoc-documentation-blue.svg)](https://godoc.org/github.com/p9c/node9) 
+[![master branch](https://img.shields.io/badge/branch-master-gray.svg)](https://github.com/p9c/node9) 
 [![discord chat](https://img.shields.io/badge/discord-chat-purple.svg)](https://discord.gg/YgBWNgK)
 
 Fully integrated all-in-one cli client, full node, wallet server, miner and GUI wallet for Parallelcoin
@@ -45,7 +45,7 @@ Goland's inbuilt terminal is a pain but Tilix requires custom hyperlinks to be d
 ```
 [
     '(\\./)([^:\\0\\s]+)(:[0-9]+),
-        goland /home/loki/src/github.com/p9c/pod/$1$2,false', 
+        goland /home/loki/src/github.com/p9c/node9/$1$2,false', 
     '(/)([^:\\0\\s]+)(:[0-9]+),
         goland $1$2,false'
 ]

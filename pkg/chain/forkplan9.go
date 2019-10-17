@@ -8,9 +8,9 @@ import (
 
 	"github.com/VividCortex/ewma"
 
-	"github.com/p9c/pod/pkg/chain/fork"
-	"github.com/p9c/pod/pkg/chain/wire"
-	"github.com/p9c/pod/pkg/log"
+	"github.com/p9c/node9/pkg/chain/fork"
+	"github.com/p9c/node9/pkg/chain/wire"
+	"github.com/p9c/node9/pkg/log"
 )
 
 // CalcNextRequiredDifficultyPlan9 calculates the required difficulty for the

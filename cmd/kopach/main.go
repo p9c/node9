@@ -2,14 +2,14 @@ package kopach
 
 import (
 	"crypto/cipher"
-	"github.com/p9c/pod/pkg/broadcast"
-	"github.com/p9c/pod/pkg/gcm"
-	"github.com/p9c/pod/pkg/log"
+	"github.com/p9c/node9/pkg/broadcast"
+	"github.com/p9c/node9/pkg/gcm"
+	"github.com/p9c/node9/pkg/log"
 	"net"
 	"sync"
 	"time"
 
-	"github.com/p9c/pod/pkg/conte"
+	"github.com/p9c/node9/pkg/conte"
 )
 
 func Main(cx *conte.Xt, quit chan struct{}, wg *sync.WaitGroup) {

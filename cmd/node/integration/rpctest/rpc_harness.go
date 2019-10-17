@@ -10,12 +10,12 @@ import (
 	"sync"
 	"testing"
 	"time"
-	
-	`github.com/p9c/pod/pkg/chain/config/netparams`
-	chainhash "github.com/p9c/pod/pkg/chain/hash"
-	"github.com/p9c/pod/pkg/chain/wire"
-	rpcclient "github.com/p9c/pod/pkg/rpc/client"
-	"github.com/p9c/pod/pkg/util"
+
+	`github.com/p9c/node9/pkg/chain/config/netparams`
+	chainhash "github.com/p9c/node9/pkg/chain/hash"
+	"github.com/p9c/node9/pkg/chain/wire"
+	rpcclient "github.com/p9c/node9/pkg/rpc/client"
+	"github.com/p9c/node9/pkg/util"
 )
 
 const (

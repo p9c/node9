@@ -5,7 +5,7 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/p9c/pod/pkg/rpc/btcjson"
+	"github.com/p9c/node9/pkg/rpc/btcjson"
 )
 
 // TestUsageFlagStringer tests the stringized output for the UsageFlag type.

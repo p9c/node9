@@ -22,8 +22,8 @@ import (
 	"github.com/btcsuite/go-socks/socks"
 	"github.com/btcsuite/websocket"
 
-	"github.com/p9c/pod/pkg/log"
-	"github.com/p9c/pod/pkg/rpc/btcjson"
+	"github.com/p9c/node9/pkg/log"
+	"github.com/p9c/node9/pkg/rpc/btcjson"
 )
 
 var (

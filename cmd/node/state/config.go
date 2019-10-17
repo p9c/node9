@@ -4,8 +4,8 @@ import (
 	"net"
 	"time"
 
-	chaincfg "github.com/p9c/pod/pkg/chain/config"
-	"github.com/p9c/pod/pkg/util"
+	chaincfg "github.com/p9c/node9/pkg/chain/config"
+	"github.com/p9c/node9/pkg/util"
 )
 
 // Config stores current state of the node

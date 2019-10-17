@@ -4,10 +4,10 @@ import (
    "math/rand"
    "testing"
    "time"
-   
+
    "github.com/davecgh/go-spew/spew"
-   
-   "github.com/p9c/pod/pkg/chain/wire"
+
+   "github.com/p9c/node9/pkg/chain/wire"
 )
 
 // genTestTx creates a random transaction for uses within test cases.

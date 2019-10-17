@@ -3,7 +3,7 @@ package blockchain
 import (
 	"testing"
 
-	"github.com/p9c/pod/pkg/util"
+	"github.com/p9c/node9/pkg/util"
 )
 
 // TestMerkle tests the BuildMerkleTreeStore API.

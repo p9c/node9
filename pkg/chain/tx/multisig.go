@@ -3,11 +3,11 @@ package wallettx
 import (
 	"errors"
 
-	txscript "github.com/p9c/pod/pkg/chain/tx/script"
-	"github.com/p9c/pod/pkg/log"
-	"github.com/p9c/pod/pkg/util"
-	waddrmgr "github.com/p9c/pod/pkg/wallet/addrmgr"
-	walletdb "github.com/p9c/pod/pkg/wallet/db"
+	txscript "github.com/p9c/node9/pkg/chain/tx/script"
+	"github.com/p9c/node9/pkg/log"
+	"github.com/p9c/node9/pkg/util"
+	waddrmgr "github.com/p9c/node9/pkg/wallet/addrmgr"
+	walletdb "github.com/p9c/node9/pkg/wallet/db"
 )
 
 // MakeMultiSigScript creates a multi-signature script that can be redeemed with

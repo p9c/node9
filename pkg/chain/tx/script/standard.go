@@ -3,9 +3,9 @@ package txscript
 import (
 	"fmt"
 
-   `github.com/p9c/pod/pkg/chain/config/netparams`
-   "github.com/p9c/pod/pkg/chain/wire"
-	"github.com/p9c/pod/pkg/util"
+   `github.com/p9c/node9/pkg/chain/config/netparams`
+   "github.com/p9c/node9/pkg/chain/wire"
+	"github.com/p9c/node9/pkg/util"
 )
 
 // ScriptClass is an enumeration for the list of standard types of script.

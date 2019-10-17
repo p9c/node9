@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/p9c/pod/pkg/rpc/btcjson"
+	"github.com/p9c/node9/pkg/rpc/btcjson"
 )
 
 // TestHelpReflectInternals ensures the various help functions which deal with reflect types work as expected for various Go types.

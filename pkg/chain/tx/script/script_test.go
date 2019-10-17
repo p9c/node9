@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/p9c/pod/pkg/chain/wire"
+	"github.com/p9c/node9/pkg/chain/wire"
 )
 
 // TestParseOpcode tests for opcode parsing with bad data templates.

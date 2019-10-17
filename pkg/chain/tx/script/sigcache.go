@@ -3,8 +3,8 @@ package txscript
 import (
 	"sync"
 
-	chainhash "github.com/p9c/pod/pkg/chain/hash"
-	ec "github.com/p9c/pod/pkg/util/elliptic"
+	chainhash "github.com/p9c/node9/pkg/chain/hash"
+	ec "github.com/p9c/node9/pkg/util/elliptic"
 )
 
 // sigCacheEntry represents an entry in the SigCache. Entries within the

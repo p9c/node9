@@ -6,7 +6,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/p9c/pod/pkg/util/gcs"
+	"github.com/p9c/node9/pkg/util/gcs"
 )
 
 var (

@@ -5,11 +5,11 @@ import (
    "fmt"
    "io"
    "sort"
-   
+
    "github.com/aead/siphash"
    "github.com/kkdai/bstream"
-   
-   "github.com/p9c/pod/pkg/chain/wire"
+
+   "github.com/p9c/node9/pkg/chain/wire"
 )
 
 // Inspired by https://github.com/rasky/gcs

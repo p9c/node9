@@ -6,10 +6,10 @@ import (
    "io"
    "reflect"
    "testing"
-   
+
    "github.com/davecgh/go-spew/spew"
-   
-   chainhash "github.com/p9c/pod/pkg/chain/hash"
+
+   chainhash "github.com/p9c/node9/pkg/chain/hash"
 )
 
 // TestTx tests the MsgTx API.

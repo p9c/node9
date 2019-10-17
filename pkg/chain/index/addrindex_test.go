@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/p9c/pod/pkg/chain/wire"
+	"github.com/p9c/node9/pkg/chain/wire"
 )
 
 // addrIndexBucket provides a mock address index database bucket by implementing the internalBucket interface.

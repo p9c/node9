@@ -3,7 +3,7 @@ package addrmgr
 import (
 	"time"
 
-	"github.com/p9c/pod/pkg/chain/wire"
+	"github.com/p9c/node9/pkg/chain/wire"
 )
 
 // KnownAddress tracks information about a known network address that is used

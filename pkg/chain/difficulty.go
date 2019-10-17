@@ -6,8 +6,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/p9c/pod/pkg/chain/fork"
-	chainhash "github.com/p9c/pod/pkg/chain/hash"
+	"github.com/p9c/node9/pkg/chain/fork"
+	chainhash "github.com/p9c/node9/pkg/chain/hash"
 )
 
 var (

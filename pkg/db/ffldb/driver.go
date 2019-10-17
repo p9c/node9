@@ -3,8 +3,8 @@ package ffldb
 import (
 	"fmt"
 
-	"github.com/p9c/pod/pkg/chain/wire"
-	database "github.com/p9c/pod/pkg/db"
+	"github.com/p9c/node9/pkg/chain/wire"
+	database "github.com/p9c/node9/pkg/db"
 )
 
 const (

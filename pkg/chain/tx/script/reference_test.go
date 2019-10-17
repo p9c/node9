@@ -10,10 +10,10 @@ import (
    "strconv"
    "strings"
    "testing"
-   
-   chainhash "github.com/p9c/pod/pkg/chain/hash"
-   "github.com/p9c/pod/pkg/chain/wire"
-   "github.com/p9c/pod/pkg/util"
+
+   chainhash "github.com/p9c/node9/pkg/chain/hash"
+   "github.com/p9c/node9/pkg/chain/wire"
+   "github.com/p9c/node9/pkg/util"
 )
 
 // scriptTestName returns a descriptive test name for the given reference script test data.

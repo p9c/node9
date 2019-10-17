@@ -4,13 +4,13 @@ package txauthor
 import (
 	"errors"
 
-	"github.com/p9c/pod/pkg/chain/config/netparams"
-	txrules "github.com/p9c/pod/pkg/chain/tx/rules"
-	txscript "github.com/p9c/pod/pkg/chain/tx/script"
-	txsizes "github.com/p9c/pod/pkg/chain/tx/sizes"
-	"github.com/p9c/pod/pkg/chain/wire"
-	"github.com/p9c/pod/pkg/util"
-	h "github.com/p9c/pod/pkg/util/helpers"
+	"github.com/p9c/node9/pkg/chain/config/netparams"
+	txrules "github.com/p9c/node9/pkg/chain/tx/rules"
+	txscript "github.com/p9c/node9/pkg/chain/tx/script"
+	txsizes "github.com/p9c/node9/pkg/chain/tx/sizes"
+	"github.com/p9c/node9/pkg/chain/wire"
+	"github.com/p9c/node9/pkg/util"
+	h "github.com/p9c/node9/pkg/util/helpers"
 )
 
 type (

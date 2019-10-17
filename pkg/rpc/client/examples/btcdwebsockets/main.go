@@ -6,10 +6,10 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/p9c/pod/app/appdata"
-	"github.com/p9c/pod/pkg/chain/wire"
-	rpcclient "github.com/p9c/pod/pkg/rpc/client"
-	"github.com/p9c/pod/pkg/util"
+	"github.com/p9c/node9/app/appdata"
+	"github.com/p9c/node9/pkg/chain/wire"
+	rpcclient "github.com/p9c/node9/pkg/rpc/client"
+	"github.com/p9c/node9/pkg/util"
 )
 
 func main() {

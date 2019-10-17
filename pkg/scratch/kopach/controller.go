@@ -7,10 +7,10 @@ import (
 
 	"github.com/p9c/rpcx/client"
 
-	"github.com/p9c/pod/pkg/chain/mining"
-	"github.com/p9c/pod/pkg/log"
-	"github.com/p9c/pod/pkg/scratch/kcpx"
-	"github.com/p9c/pod/pkg/util"
+	"github.com/p9c/node9/pkg/chain/mining"
+	"github.com/p9c/node9/pkg/log"
+	"github.com/p9c/node9/pkg/scratch/kcpx"
+	"github.com/p9c/node9/pkg/util"
 )
 
 // Subscriber is the information required to track a subscriber

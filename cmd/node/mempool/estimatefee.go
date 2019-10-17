@@ -12,10 +12,10 @@ import (
 	"strings"
 	"sync"
 
-	chainhash "github.com/p9c/pod/pkg/chain/hash"
-	"github.com/p9c/pod/pkg/chain/mining"
-	"github.com/p9c/pod/pkg/log"
-	"github.com/p9c/pod/pkg/util"
+	chainhash "github.com/p9c/node9/pkg/chain/hash"
+	"github.com/p9c/node9/pkg/chain/mining"
+	"github.com/p9c/node9/pkg/log"
+	"github.com/p9c/node9/pkg/util"
 )
 
 type // DUOPerKilobyte is number with units of parallelcoins per kilobyte.

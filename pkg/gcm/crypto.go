@@ -7,7 +7,7 @@ import (
 
 	"github.com/btcsuite/golangcrypto/pbkdf2"
 
-	"github.com/p9c/pod/pkg/log"
+	"github.com/p9c/node9/pkg/log"
 )
 
 // GetCipher returns a GCM cipher given a password string. Note that this cipher

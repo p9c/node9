@@ -15,7 +15,7 @@ import (
 	"golang.org/x/crypto/scrypt"
 	"golang.org/x/crypto/sha3"
 
-	chainhash "github.com/p9c/pod/pkg/chain/hash"
+	chainhash "github.com/p9c/node9/pkg/chain/hash"
 )
 
 // HashReps allows the number of multiplication/division cycles to be

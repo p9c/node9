@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/p9c/pod/pkg/chain/wire"
-	"github.com/p9c/pod/pkg/peer/addrmgr"
+	"github.com/p9c/node9/pkg/chain/wire"
+	"github.com/p9c/node9/pkg/peer/addrmgr"
 )
 
 func TestChance(	t *testing.T) {

@@ -6,7 +6,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/p9c/pod/pkg/log"
+	"github.com/p9c/node9/pkg/log"
 )
 
 // TODO: tighten maxAllowedOffsetSecs for hf1 - also, consider changing to a
